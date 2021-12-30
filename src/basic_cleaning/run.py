@@ -33,6 +33,7 @@ def go(args):
     df['last_review'] = pd.to_datetime(df['last_review'])
     df = df[idx].copy()
 
+    # remove location outside defined latitude and longitude 
     logger.info("Removing outliers in latitude & longitude column ... ")
     idx = df['longitude'].between(-74.25, -73.50) & df['latitude'].between(40.5, 41.2)
     df = df[idx].copy()
