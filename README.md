@@ -8,6 +8,7 @@ In this project you will build such a pipeline.
 
 ## Final Pipeline
 weight and Biases (wandb) project can be found here: [wandb project url](https://wandb.ai/oktafsurya/nyc_airbnb?workspace=user-oktafsurya)
+![final_pipeline](images/final_pipeline.png)
 
 ## Table of contents
 
